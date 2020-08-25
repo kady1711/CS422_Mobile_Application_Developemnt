@@ -17,7 +17,7 @@ import java.util.ArrayList;
 public class NewsArticleDownloader extends AsyncTask<String, Void, String> {
     private final String URL_ARTICLE_HEAD = "https://newsapi.org/v2/top-headlines?pageSize=50&sources=";
     private final String URL_ARTICLE_TAIL = "&apiKey=";
-    private final String KEY = "6254359f18ea45c4836197978f339da5";
+    private final String KEY = "*****";
     private static final String TAG = "NewsArticleDownloader";
     static NewsService newsService = new NewsService();
 

@@ -17,10 +17,10 @@ import java.util.ArrayList;
 public class NewsSourceDownloader extends AsyncTask<String, Void, String> {
     private MainActivity mainActivity ;
 
-    private final String URL_ALL = "https://newsapi.org/v2/sources?language=en&country=us&apiKey=267edc0f51d34eb997cef9b25c626fde";
+    private final String URL_ALL = "https://newsapi.org/v2/sources?language=en&country=us&apiKey=***********";
     private final String URL_CATEGORY_HEAD = "https://newsapi.org/v2/sources?language=en&country=us&category=";
     private final String URL_CATEGORY_TAIL = "&apiKey=";
-    private final String KEY = "6254359f18ea45c4836197978f339da5";
+    private final String KEY = "*****";
     private static final String TAG = "NewsSourceDownloader";
 
     public NewsSourceDownloader(MainActivity ma) {
